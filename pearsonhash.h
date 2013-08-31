@@ -23,8 +23,8 @@
 #define PEARSONHASH_H_
 
 uint8_t pearsonhash_table[] = {
-  39, 159
+  39, 159, 180, 252, 71, 6, 13, 164, 232, 35, 226, 155, 98, 120, 154, 69
 };
 
-uint8_t pearson_hash(uint8_t* data);
+uint8_t pearson_hash(uint8_t* data, uint64_t length);
 #endif
