@@ -4,7 +4,7 @@
  *  Created on: Jul 30, 2013
  *      Author: tpltnt <tpltnt.github@dropcut.net>
  *
- *  This file is part of a Pearson hashing implemenation.
+ *  This file is part of a Pearson hash implemenation.
  *
  *  pearsonhash.h is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as published
