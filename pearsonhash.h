@@ -22,6 +22,9 @@
 
 #ifndef PEARSONHASH_H_
 #define PEARSONHASH_H_
+#ifndef STDINT_H
+#include<stdint.h>
+#endif
 /** @file */
 
 uint8_t pearsonhash_table[] = {
