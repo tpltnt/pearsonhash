@@ -41,7 +41,7 @@ uint8_t pearsonhash_table[] = {
   11, 101, 34, 37, 194, 25, 50, 12, 87, 198, 173, 240, 193, 171, 143, 231,
   111, 141, 191, 103, 74, 245, 223, 20, 161, 235, 122, 63, 89, 149, 73, 238,
   134, 68, 93, 183, 241, 81, 196, 49, 192, 65, 212, 94, 203, 10, 200, 47
-}; /*!< The lookup table to compute the hash */
+}; /*!< The lookup table for perfect hashing */
 
 /**
  * @brief This function computes a hash over a given input.
