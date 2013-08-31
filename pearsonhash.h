@@ -19,8 +19,10 @@
  *  You should have received a copy of the GNU Affero General Public License
  *  along with pearsonhash.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 #ifndef PEARSONHASH_H_
 #define PEARSONHASH_H_
+/** @file */
 
 uint8_t pearsonhash_table[] = {
   39, 159, 180, 252, 71, 6, 13, 164, 232, 35, 226, 155, 98, 120, 154, 69,
@@ -39,7 +41,7 @@ uint8_t pearsonhash_table[] = {
   11, 101, 34, 37, 194, 25, 50, 12, 87, 198, 173, 240, 193, 171, 143, 231,
   111, 141, 191, 103, 74, 245, 223, 20, 161, 235, 122, 63, 89, 149, 73, 238,
   134, 68, 93, 183, 241, 81, 196, 49, 192, 65, 212, 94, 203, 10, 200, 47
-};
+}; /*!< The lookup table to compute the hash */
 
 /**
  * @brief This function computes a hash over a given input.
