@@ -41,5 +41,11 @@ uint8_t pearsonhash_table[] = {
   134, 68, 93, 183, 241, 81, 196, 49, 192, 65, 212, 94, 203, 10, 200, 47
 };
 
-uint8_t pearson_hash(uint8_t* data, uint64_t length);
+/**
+ * @brief This function computes a hash over a given input.
+ * @var data_ptr points to an uint8-array of data to hash
+ * @var length is the length of the input data
+ * @returns hash value of the given data
+ */
+uint8_t pearson_hash(uint8_t* data_ptr, uint64_t length);
 #endif
